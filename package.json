@@ -1,0 +1,14 @@
+{
+    "name": "docker_web_app",
+    "version": "1.0.0",
+    "description": "Node.js on Docker",
+    "author": "Christopher Karlon <christopherkarlon@gmail.com> ",
+    "private": true,
+    "scripts": {
+        "start": ""
+    },
+    "dependencies": {
+        "express": "^4.16.1",
+        "global": "^4.4.0"
+    }
+}

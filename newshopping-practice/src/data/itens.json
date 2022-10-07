@@ -1,0 +1,32 @@
+[
+    {
+      "id": 1,
+      "name": "StarterCourse",
+      "price": 10.99,
+      "imgUrl": "/imgs/pexels-cottonbro-4709387.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Baseline Upgrade",
+      "price": 1199,
+      "imgUrl": "/imgs/pexels-field-engineer-442151.jpg"
+    },
+    {
+      "id": 3,
+      "name": "PCB-Desing",
+      "price": 5,
+      "imgUrl": "/imgs/pexels-pixabay-50711.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Components",
+      "price": 0.2,
+      "imgUrl": "/imgs/pexels-pixabay-163100.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Data/Storage",
+        "price": 0.2,
+        "imgUrl": "/imgs/pexels-pixabay-270572.jpg"
+      }
+  ]

@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  react-bootstrap:
+    container_name: amazing-shopping
+    # env_file:
+    #   - docker.env
+    build: 
+      context: ..
+      target: node
+      dockerfile: .docker/Dockerfile
+    # volumes: 
+    #   - ..:/App/newshopping-practice
+    #   - ..//.docker:/App/.docker
+    working_dir: /App/newshopping-practice
+    environment:
+      - node.name=amazing-shopping
+      - bootstrap.memory_lock=true
+      - discovery.type=single-node
+    command: "npm run dev -- --host"
+    ports:
+      - "5173:5173"
+      - "5174:5174"
+    expose:
+      - "5173"
+      - "3000"
+      - "22"
+    networks: 
+      - react-transfer
+
+networks:
+  react-transfer: {}
+
